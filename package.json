@@ -8,6 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "apollo-server-micro": "^2.14.3",
+    "dotenv": "^8.2.0",
+    "neo4j-driver": "^4.0.2",
+    "neo4j-graphql-js": "^2.14.2",
     "next": "9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1"

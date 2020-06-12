@@ -1,0 +1,30 @@
+type Type {
+  name: ID!
+}
+
+scalar Any
+
+input Property {
+  key: Any!
+  type: String!
+}
+
+input CreateTypeInput {
+  name: String!
+  properties: [Property!]
+}
+
+type Mutation {
+  CreateType(input: CreateTypeInput): Boolean
+}
+
+type Mine {
+  test: String
+  anothaone: String
+}
+
+type Test {
+	
+	test: Mine
+	anothaone: Int
+}
